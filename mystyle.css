@@ -1,0 +1,55 @@
+@font-face {
+    font-family:  SkattaSansUI-current ;
+    src:  url( current/SkattaSansUI-Medium.woff2 ) format( woff2 );
+    font-weight: 500;
+}
+@font-face {
+    font-family:  SkattaSansUI-current ;
+    src: url( current/SkattaSansUI-Regular.woff2 ) format( woff2 );
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:  SkattaSansUI-fixed ;
+    src: url( SkattaSansUI_TT/SkattaSansUI_TT-Regular.woff2 ) format( woff2 );
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:  SkattaSansUI-fixed ;
+    src:  url( SkattaSansUI_TT/SkattaSansUI_TT-Medium.woff2 ) format( woff2 );
+    font-weight: 500;
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+.box{
+      display: flex;
+      flex-direction:row;
+  }
+
+.paragraph{
+    width: 500px;
+    margin-top: 20px;
+
+}
+.medium {
+   font-size: 16px;
+   font-weight: 500;
+
+}
+.regular {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.fixed-font{
+    font-family:  SkattaSansUI-fixed;
+}
+
+.old-font{
+    font-family:  SkattaSansUI-current;
+}

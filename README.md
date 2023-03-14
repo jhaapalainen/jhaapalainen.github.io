@@ -1,1 +1,0 @@
-# jhaapalainen.github.io
